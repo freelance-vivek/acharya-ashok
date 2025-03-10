@@ -1,0 +1,110 @@
+{
+    "menu_service":[
+      {
+        "id": 1,
+        "title": "Kaalsarp dosh pooja",
+        "href": "/services/Kaalsarpdoshpooja",
+        "src": "/images/Kaalsarpdoshpooja.jpeg",
+        "description": "A powerful ritual to neutralize the negative effects of Kaalsarp yoga in one's horoscope and bring peace and prosperity."
+      },
+      {
+        "id": 2,
+        "title": "Navgrah shanti pooja",
+        "href": "/services/Navgrahshantipooja",
+        "src": "/images/Navgrah_shanti_pooja.jpeg",
+        "description": "Sacred ceremony to appease the nine planets and harmonize their influences for a balanced and successful life."
+      },
+      {
+        "id": 3,
+        "title": "Vastu dosh nivaran pooja",
+        "href": "/services/Vastudoshnivaranpooja",
+        "src": "/images/vastu_dosh_nivaran_pooja.jpeg",
+        "description": "Ritual to correct Vastu defects in buildings and homes, ensuring positive energy flow and harmony."
+      },
+      {
+        "id": 4,
+        "title": "Grah pravesh pooja",
+        "href": "/services/grahpraveshpooja",
+        "src": "/images/grah_pravesh_pooja.jpeg",
+        "description": "Traditional housewarming ceremony to bless a new home with positive energy and divine protection."
+      },
+      {
+        "id": 5,
+        "title": "Satyanarayan Katha Puja",
+        "href": "/services/satyanarayankathapuja",
+        "src": "/images/satyanarayan_katha_pooja.jpeg",
+        "description": "Auspicious worship of Lord Vishnu, performed for fulfillment of wishes and overall prosperity."
+      },
+      {
+        "id": 6,
+        "title": "Maha Mrityunjaya Mantra Jaap",
+        "href": "/services/mahamrityunjayamantrajaap",
+        "src": "/images/maha_mrityunjaya_mantra_jaap.jpeg",
+        "description": "Powerful mantra recitation dedicated to Lord Shiva for good health, longevity, and protection from untimely death."
+      },
+      {
+        "id": 7,
+        "title": "Rudrabhishek pooja",
+        "href": "/services/rudrabhishekpooja",
+        "src": "/images/rudrabhishek_pooja.jpeg",
+        "description": "Sacred ablution ceremony of Lord Shiva to seek blessings, remove obstacles, and attain peace."
+      },
+      {
+        "id": 8,
+        "title": "Pitra dosh pooja",
+        "href": "/services/pitradoshpooja",
+        "src": "/images/pitra_dosh_pooja.jpeg",
+        "description": "Ritual to pacify ancestral spirits and resolve issues arising from ancestral debts or dissatisfaction."
+      },
+      {
+        "id": 9,
+        "title": "Bhoomi pooja",
+        "href": "/services/bhoomipooja",
+        "src": "/images/bhoomi_pooja.jpeg",
+        "description": "Sacred ground-breaking ceremony performed before starting construction to seek blessings from Mother Earth."
+      },
+      {
+        "id": 10,
+        "title": "Namkaran sanskar pooja",
+        "href": "/services/namkaransanskarpooja",
+        "src": "/images/namkaran_sanskar_pooja.jpeg",
+        "description": "Traditional Hindu naming ceremony for newborns, performed to bestow divine blessings and identity."
+      },
+      {
+        "id": 12,
+        "title": "Ganesh chaturthi pooja",
+        "href": "/services/ganeshchaturthipooja",
+        "src": "/images/ganesh_chaturthi_pooja.jpeg",
+        "description": "Ceremonial worship of Lord Ganesha during the auspicious Ganesh Chaturthi festival for success and wisdom."
+      },
+      {
+        "id": 13,
+        "title": "Annaprasan sanskar pooja",
+        "href": "/services/annaprasansanskarpooja",
+        "src": "/images/annaprasan_sanskar_pooja.jpeg",
+        "description": "First rice-eating ceremony for infants, marking the beginning of solid food consumption with divine blessings."
+      },
+      {
+        "id": 14,
+        "title": "Vrat Udyapan Pooja",
+        "href": "/services/vratudyapanpooja",
+        "src": "/images/vrat_udyapan_pooja.jpeg",
+        "description": "Concluding ceremony performed after completing a religious vow or fast to seek final blessings."
+      },
+      {
+        "id": 15,
+        "title": "Govrdhan pooja",
+        "href": "/services/govrdhanpooja",
+        "src": "/images/govrdhan_pooja.jpeg",
+        "description": "Worship of the sacred Govardhan hill, symbolizing gratitude to nature and Lord Krishna's divine protection."
+      },
+      {
+        "id": 16,
+        "title": "Dhanteras pooja",
+        "href": "/services/dhanteraspooja",
+        "src": "/images/dhanteras_pooja.jpeg",
+        "description": "Auspicious worship performed during Diwali festival to seek blessings from Goddess Lakshmi for wealth and prosperity."
+      }
+    ]
+  }
+  
