@@ -1,8 +1,8 @@
-"use client";
-import React from "react";
-import { motion } from "framer-motion";
-import { LampContainer } from "@/components/ui/lamp";
-import Image from "next/image";
+"use client"
+import React from "react"
+import { motion } from "framer-motion"
+import { LampContainer } from "@/components/ui/lamp"
+import Image from "next/image"
 
 const dummyContent = [
   {
@@ -50,7 +50,7 @@ const dummyContent = [
       </>
     ),
   },
-];
+]
 
 function TracingBeamDemo() {
   return (
@@ -58,12 +58,6 @@ function TracingBeamDemo() {
       <div className="max-w-4xl mx-auto antialiased pt-4 relative">
         {dummyContent.map((item, index) => (
           <div key={`content-${index}`} className="mb-10">
-            {item.badge ? (
-              <h2 className="bg-black text-white rounded-full text-sm w-fit px-4 py-1 mb-4">
-                {item.badge}
-              </h2>
-            ) : null}
-
             <p className="text-5xl mb-4">{item.title}</p>
 
             <div className="text-2xl  prose prose-sm dark:prose-invert">
@@ -84,7 +78,7 @@ function TracingBeamDemo() {
         ))}
       </div>
     </div>
-  );
+  )
 }
 
 export default function AboutUs() {
@@ -106,5 +100,5 @@ export default function AboutUs() {
       </LampContainer>
       <TracingBeamDemo />
     </>
-  );
+  )
 }

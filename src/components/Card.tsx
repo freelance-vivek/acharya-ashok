@@ -1,7 +1,7 @@
-"use client";
-import React, { useState } from "react";
-import Image from "next/image";
-import { motion, AnimatePresence } from "framer-motion";
+"use client"
+import React, { useState } from "react"
+import Image from "next/image"
+import { motion, AnimatePresence } from "framer-motion"
 
 const t = [
   {
@@ -28,7 +28,7 @@ const t = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus et deleniti nesciunt sint eligendi reprehenderit reiciendis, quibusdam illo, beatae quia fugit consequatur.",
     rating: 4,
   },
-];
+]
 
 const testimonials = [
   {
@@ -66,20 +66,20 @@ const testimonials = [
     rating: 4,
     // title: 'Music Production Student',
   },
-];
+]
 
 export default function TestimonialCard() {
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const [currentIndex, setCurrentIndex] = useState(0)
 
   const nextTestimonial = () => {
-    setCurrentIndex((prev) => (prev + 1) % testimonials.length);
-  };
+    setCurrentIndex((prev) => (prev + 1) % testimonials.length)
+  }
 
   const prevTestimonial = () => {
     setCurrentIndex(
       (prev) => (prev - 1 + testimonials.length) % testimonials.length
-    );
-  };
+    )
+  }
 
   return (
     <div className="TestimonialCard ">
@@ -123,9 +123,9 @@ export default function TestimonialCard() {
                   <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
                     {testimonials[currentIndex].name}
                   </h3>
-                  <p className="text-gray-500 dark:text-gray-400">
-                    {testimonials[currentIndex].role}
-                  </p>
+                  {/* <p className="text-gray-500 dark:text-gray-400">
+                    {testimonials[currentIndex]?.role}
+                  </p> */}
                 </div>
               </div>
             </motion.div>
@@ -172,5 +172,5 @@ export default function TestimonialCard() {
         </div>
       </div>
     </div>
-  );
+  )
 }

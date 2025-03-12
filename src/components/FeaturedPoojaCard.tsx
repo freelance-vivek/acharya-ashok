@@ -1,13 +1,13 @@
-"use client";
-import React from "react";
-import { motion } from "framer-motion";
-import { LampContainer } from "@/components/ui/lamp";
-import Image from "next/image";
-import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
-import Link from "next/link";
+"use client"
+import React from "react"
+import { motion } from "framer-motion"
+import { LampContainer } from "@/components/ui/lamp"
+import Image from "next/image"
+import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card"
+import Link from "next/link"
 
-import menu_service from "@/data/menu_service.json";
-import { Button } from "./ui/moving-border";
+import menu_service from "@/data/menu_service.json"
+import { Button } from "./ui/moving-border"
 
 function FeaturedPoojaCard() {
   return (
@@ -40,10 +40,21 @@ function FeaturedPoojaCard() {
         </div>
       </div>
     </>
-  );
+  )
+}
+interface ThreeDCardProps {
+  title: string
+  description: string
+  src: string
+  href: string
 }
 
-export function ThreeDCardDemo({ title, description, src, href }) {
+export function ThreeDCardDemo({
+  title,
+  description,
+  src,
+  href,
+}: ThreeDCardProps) {
   return (
     <CardContainer className="inter-var text-4xl">
       <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[40rem] h-auto rounded-xl p-6 border ">
@@ -70,7 +81,7 @@ export function ThreeDCardDemo({ title, description, src, href }) {
           />
         </CardItem>
         <div className="flex justify-between items-center mt-20">
-          <Link
+          {/* <Link
             href="https://twitter.com/mannupaaji"
             target="_blank"
             rel="noopener noreferrer"
@@ -79,7 +90,7 @@ export function ThreeDCardDemo({ title, description, src, href }) {
               translateZ={20}
               className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
             ></CardItem>
-          </Link>
+          </Link> */}
           <Link href={href}>
             <CardItem
               translateZ={20}
@@ -92,7 +103,7 @@ export function ThreeDCardDemo({ title, description, src, href }) {
         </div>
       </CardBody>
     </CardContainer>
-  );
+  )
 }
 
-export default FeaturedPoojaCard;
+export default FeaturedPoojaCard

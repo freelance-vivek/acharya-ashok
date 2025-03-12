@@ -1,34 +1,7 @@
-"use client";
-import React from "react";
-import { motion } from "framer-motion";
-import { LampContainer } from "@/components/ui/lamp";
-
-function TracingBeamDemo() {
-  return (
-    <div className="px-6 flex">
-      <div className="max-w-7xl mx-auto antialiased pt-4 relative">
-        {dummyContent.map((item, index) => (
-          <div
-            key={`content-${index}`}
-            className="mb-10 relative overflow-hidden rounded-2xl bg-white shadow-xl dark:bg-black p-[5rem]"
-          >
-            {item.badge ? (
-              <h2 className="bg-black text-white rounded-full text-sm w-fit px-4 py-1 mb-4">
-                {item.badge}
-              </h2>
-            ) : null}
-
-            <p className="text-5xl mb-4">{item.title}</p>
-
-            <div className="text-2xl  prose prose-sm dark:prose-invert">
-              {item.description}
-            </div>
-          </div>
-        ))}
-      </div>
-    </div>
-  );
-}
+"use client"
+import React from "react"
+import { motion } from "framer-motion"
+import { LampContainer } from "@/components/ui/lamp"
 
 const dummyContent = [
   {
@@ -70,7 +43,34 @@ const dummyContent = [
     badge: "",
     image: "",
   },
-];
+]
+
+function TracingBeamDemo() {
+  return (
+    <div className="px-6 flex">
+      <div className="max-w-7xl mx-auto antialiased pt-4 relative">
+        {dummyContent.map((item, index) => (
+          <div
+            key={`content-${index}`}
+            className="mb-10 relative overflow-hidden rounded-2xl bg-white shadow-xl dark:bg-black p-[5rem]"
+          >
+            {item.badge ? (
+              <h2 className="bg-black text-white rounded-full text-sm w-fit px-4 py-1 mb-4">
+                {item.badge}
+              </h2>
+            ) : null}
+
+            <p className="text-5xl mb-4">{item.title}</p>
+
+            <div className="text-2xl  prose prose-sm dark:prose-invert">
+              {item.description}
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  )
+}
 
 function GovrdhanPooja() {
   return (
@@ -91,7 +91,7 @@ function GovrdhanPooja() {
       </LampContainer>
       <TracingBeamDemo />
     </>
-  );
+  )
 }
 
-export default GovrdhanPooja;
+export default GovrdhanPooja

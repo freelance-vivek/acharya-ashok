@@ -1,7 +1,7 @@
-"use client";
-import React from "react";
-import { motion } from "framer-motion";
-import { LampContainer } from "@/components/ui/lamp";
+"use client"
+import React from "react"
+import { motion } from "framer-motion"
+import { LampContainer } from "@/components/ui/lamp"
 
 function TracingBeamDemo() {
   return (
@@ -27,7 +27,7 @@ function TracingBeamDemo() {
         ))}
       </div>
     </div>
-  );
+  )
 }
 const dummyContent = [
   {
@@ -89,9 +89,9 @@ const dummyContent = [
     badge: "",
     image: "",
   },
-];
+]
 
-export function Grahpraveshpooja() {
+function Grahpraveshpooja() {
   return (
     <>
       <LampContainer>
@@ -110,7 +110,7 @@ export function Grahpraveshpooja() {
       </LampContainer>
       <TracingBeamDemo />
     </>
-  );
+  )
 }
 
-export default Grahpraveshpooja;
+export default Grahpraveshpooja

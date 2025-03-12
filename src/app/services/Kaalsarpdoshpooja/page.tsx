@@ -1,9 +1,9 @@
-"use client";
-import React from "react";
-import { motion } from "framer-motion";
-import { LampContainer } from "@/components/ui/lamp";
-import KaalsarLogo from "../../../../public/images/Kaalsarpdoshpooja.jpeg";
-import Image from "next/image";
+"use client"
+import React from "react"
+import { motion } from "framer-motion"
+import { LampContainer } from "@/components/ui/lamp"
+import KaalsarLogo from "../../../../public/images/Kaalsarpdoshpooja.jpeg"
+import Image from "next/image"
 
 function TracingBeamDemo() {
   return (
@@ -29,7 +29,7 @@ function TracingBeamDemo() {
         ))}
       </div>
     </div>
-  );
+  )
 }
 
 const dummyContent = [
@@ -154,7 +154,7 @@ const dummyContent = [
     badge: "",
     image: "",
   },
-];
+]
 
 function Kaalsarpdoshpooja() {
   return (
@@ -173,22 +173,9 @@ function Kaalsarpdoshpooja() {
           Kaalsarp dosh pooja
         </motion.h1>
       </LampContainer>
-      <div className="flex justify-center align-content-center">
-        <div>
-          <figure className="story__shape">
-            <Image
-              src={KaalsarLogo}
-              alt="blog thumbnail"
-              height="140"
-              width="240"
-              className="rounded-lg mb-10 object-cover "
-            />
-          </figure>
-        </div>
-        <TracingBeamDemo />
-      </div>
+      <TracingBeamDemo />
     </>
-  );
+  )
 }
 
-export default Kaalsarpdoshpooja;
+export default Kaalsarpdoshpooja

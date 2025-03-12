@@ -1,9 +1,9 @@
-"use client";
-import React from "react";
-import { motion } from "framer-motion";
-import { LampContainer } from "@/components/ui/lamp";
-import VastuLogo from "../../../../public/images/vastu_dosh_nivaran_pooja.jpeg";
-import Image from "next/image";
+"use client"
+import React from "react"
+import { motion } from "framer-motion"
+import { LampContainer } from "@/components/ui/lamp"
+import VastuLogo from "../../../../public/images/vastu_dosh_nivaran_pooja.jpeg"
+import Image from "next/image"
 
 function TracingBeamDemo() {
   return (
@@ -29,7 +29,7 @@ function TracingBeamDemo() {
         ))}
       </div>
     </div>
-  );
+  )
 }
 
 const dummyContent = [
@@ -100,9 +100,9 @@ const dummyContent = [
     badge: "",
     image: "",
   },
-];
+]
 
-export function Kaalsarpdoshpooja() {
+function Vastudoshnivaranpooja() {
   return (
     <>
       <LampContainer>
@@ -122,7 +122,7 @@ export function Kaalsarpdoshpooja() {
 
       <TracingBeamDemo />
     </>
-  );
+  )
 }
 
-export default Kaalsarpdoshpooja;
+export default Vastudoshnivaranpooja
