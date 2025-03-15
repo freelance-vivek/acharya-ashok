@@ -31,6 +31,7 @@
   --color-white: #fff;
   --color-black: #000;
 }
+
 .movingTitle {
   height: 30px;
   width: 100%;
@@ -40,6 +41,7 @@
   font-size: 16px;
   /* color: #ff7730; */
 }
+
 .TestimonialCard {
   display: flex;
   flex-direction: column;
@@ -138,19 +140,33 @@ body {
         rgba(255, 150, 77, 0.8),
         rgba(230, 94, 0, 0.8)
       ),
-      url(../../public/images/buddha-hero.jpg);
+      url(../../public/images/om.jpeg);
   }
 }
 
 @media only screen and (max-width: 37.5em) {
   .header {
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
-    clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    height: 85vh;
+    width: 100wh;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(255, 150, 77, 0.8),
+        rgba(230, 94, 0, 0.8)
+      ),
+      url(../../public/images/om.jpeg);
+    background-size: auto;
+    background-position: top;
+    background-repeat: no-repeat;
+    position: relative;
   }
 }
 
 .header__logo-box {
   position: absolute;
+  height: 120px;
+  width: 120px;
   /* top: 4rem;
   left: 4rem; */
 }
@@ -192,6 +208,17 @@ body {
   .heading-primary--main {
     letter-spacing: 1rem;
     font-family: 5rem;
+  }
+  .header__logo-box {
+    height: 50px;
+    width: 80px;
+  }
+  .header__text-box {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
   }
 }
 
@@ -289,7 +316,7 @@ body {
 
 @media only screen and (max-width: 37.5em) {
   .navigation__button {
-    top: 3rem;
+    top: 6rem;
     right: 3rem;
   }
 }
@@ -315,7 +342,7 @@ body {
 
 @media only screen and (max-width: 37.5em) {
   .navigation__background {
-    top: 3.5rem;
+    top: 6.5rem;
     right: 3.5rem;
   }
 }

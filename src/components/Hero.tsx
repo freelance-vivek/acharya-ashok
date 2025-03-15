@@ -2,14 +2,10 @@ import Link from "next/link"
 import { Button } from "./ui/moving-border"
 import Image from "next/image"
 import logo from "../../public/images/logo-new.png"
-import Marquee from "react-fast-marquee"
 
 function Hero() {
   return (
     <>
-      <Marquee className="movingTitle">
-        contact us : 9981933791 / 9922180610{" "}
-      </Marquee>
       <header className="header" role="banner">
         <div className="header__logo-box">
           <Image src={logo} alt="Logo" height="50" width="200" />
