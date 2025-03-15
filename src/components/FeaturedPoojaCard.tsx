@@ -76,7 +76,7 @@ export function ThreeDCardDemo({
             src={src}
             height="500"
             width="500"
-            className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
+            className="h-80 lg:w-full contain rounded-xl group-hover/card:shadow-xl bg-top"
             alt="thumbnail"
           />
         </CardItem>

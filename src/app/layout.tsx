@@ -4,6 +4,7 @@ import "./globals.css"
 import Navbar from "@/components/Navbar"
 import Image from "next/image"
 import Whatsapp from "../../public/images/WhatsApp.svg"
+import Footer from "@/components/Footer"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -47,6 +48,8 @@ export default function RootLayout({
           <Navbar />
         </div>
         {children}
+
+        <Footer />
       </body>
     </html>
   )
