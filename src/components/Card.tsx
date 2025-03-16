@@ -87,7 +87,7 @@ export default function TestimonialCard() {
         <h2 className="heading-secondary"> voice of success </h2>
       </div>
       <div className="relative max-w-5xl mx-auto px-4 py-16 ">
-        <div className="relative overflow-hidden rounded-2xl bg-white shadow-xl dark:bg-black">
+        <div className="relative overflow-hidden rounded-2xl bg-white shadow-xl dark:bg-black lg:w-[55rem] max-h-[25rem]">
           <AnimatePresence mode="wait">
             <motion.div
               key={currentIndex}

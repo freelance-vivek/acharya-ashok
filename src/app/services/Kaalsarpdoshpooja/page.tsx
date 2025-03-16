@@ -12,7 +12,7 @@ function TracingBeamDemo() {
         {dummyContent.map((item, index) => (
           <div
             key={`content-${index}`}
-            className="mb-10 relative overflow-hidden rounded-2xl bg-white shadow-xl dark:bg-black p-[5rem]"
+            className=" relative overflow-hidden rounded-2xl  py-[1rem]"
           >
             {item.badge ? (
               <h2 className="bg-black text-white rounded-full text-sm w-fit px-4 py-1 mb-4">
@@ -20,7 +20,7 @@ function TracingBeamDemo() {
               </h2>
             ) : null}
 
-            <p className="text-5xl mb-4">{item.title}</p>
+            <p className="title-text paragraph-sevices ">{item.title}</p>
 
             <div className="text-2xl  prose prose-sm dark:prose-invert">
               {item.description}
@@ -168,7 +168,7 @@ function Kaalsarpdoshpooja() {
             duration: 0.8,
             ease: "easeInOut",
           }}
-          className="mt-8 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
+          className="mt-10 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center font-medium tracking-tight text-transparent  heading-primary--main"
         >
           Kaalsarp dosh pooja
         </motion.h1>

@@ -254,7 +254,10 @@ body {
 .paragraph-aboutus {
   font-size: 1.5rem;
 }
-
+.paragraph-sevices {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
 @media only screen and (max-width: 37.5em) {
   .heading-primary--main {
     letter-spacing: 1rem;
@@ -340,6 +343,10 @@ body {
 @media only screen and (max-width: 37.5em) {
   .heading-secondary {
     font-size: 4.5rem;
+  }
+  .paragraph-sevices {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
   }
 }
 

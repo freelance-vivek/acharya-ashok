@@ -21,7 +21,7 @@ const words = `Acharya Ji firmly believes that in today's world, puja path and k
 
 export default function Mission() {
   return (
-    <div className=" h-[50rem] relative">
+    <div className=" relative">
       <LampContainer>
         <motion.h1
           initial={{ opacity: 0.5, y: 100 }}
@@ -36,7 +36,7 @@ export default function Mission() {
           Mission
         </motion.h1>
       </LampContainer>
-      <div className="flex items-center justify-center w-full flex-col px-4 h-full mt-[10rem] relative z-20">
+      <div className="flex items-center justify-center w-full flex-col px-4 h-full mt-[10rem] relative z-20 mb-8">
         <div className="u-center-text u-margin-bottom-big mt-8">
           <h2 className="heading-secondary">
             Acharya Ashok Dwivedi Ji's Mission
