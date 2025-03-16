@@ -1,7 +1,7 @@
-"use client";
-import React from "react";
-import { motion } from "framer-motion";
-import { cn } from "@/utils/cn";
+"use client"
+import React from "react"
+import { motion } from "framer-motion"
+import { cn } from "@/utils/cn"
 
 export function LampDemo() {
   return (
@@ -19,20 +19,20 @@ export function LampDemo() {
         Build lamps <br /> the right way
       </motion.h1>
     </LampContainer>
-  );
+  )
 }
 
 export const LampContainer = ({
   children,
   className,
 }: {
-  children: React.ReactNode;
-  className?: string;
+  children: React.ReactNode
+  className?: string
 }) => {
   return (
     <div
       className={cn(
-        "relative flex min-h-[85vh] flex-col items-center justify-center overflow-hidden bg-slate-950 w-full rounded-md z-0 ",
+        "relative flex lg:min-h-[85vh] min-h-[55vh] flex-col items-center justify-center overflow-hidden bg-slate-950 w-full  z-0 ",
         className
       )}
       style={{ clipPath: "polygon(0 0, 100% 0%, 100% 88%, 0% 100%)" }}
@@ -101,5 +101,5 @@ export const LampContainer = ({
         {children}
       </div>
     </div>
-  );
-};
+  )
+}

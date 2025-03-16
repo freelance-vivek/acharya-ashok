@@ -57,10 +57,14 @@ function TracingBeamDemo() {
     <div className="px-6 ">
       <div className="max-w-4xl mx-auto antialiased pt-4 relative">
         {dummyContent.map((item, index) => (
-          <div key={`content-${index}`} className="mb-10">
-            <p className="text-5xl mb-4">{item.title}</p>
+          <div key={`content-${index}`} className="mb-10 ">
+            {item.title ? (
+              <div className="text-title-bg mb-8">
+                <p className="title-text">{item.title}</p>
+              </div>
+            ) : null}
 
-            <div className="text-2xl  prose prose-sm dark:prose-invert">
+            <div className="paragraph-aboutus prose prose-sm dark:prose-invert">
               {item?.image && (
                 <figure className="story__shape">
                   <Image
